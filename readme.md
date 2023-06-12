@@ -4,7 +4,7 @@ This script is designed to randomly sample N articles from a given EndNote XML f
 - **--xml_file**: The path to the EndNote XML file to be sampled.
 - **--output_file**: The path to the output XML file.
 - **--sample_size**: The number of articles to sample.
-- **ratingfield**: The field in the EndNote XML file to store sampling information. This field will be set to YES for sampled articles and NO for non-sampled articles. default: "custom3"
+- **--ratingfield**: The field in the EndNote XML file to store sampling information. This field will be set to YES for sampled articles and NO for non-sampled articles. default: "custom3"
 - **--seed**: The random seed to use for sampling. If not provided, the script will use 42 as the default seed.
 ### Example Usage
 ```bash
